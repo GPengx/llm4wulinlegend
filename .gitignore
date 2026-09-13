@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+*.venv/
+wulin.venv/
+gpxenv/
+
+# IDE
+.vscode/
+.idea/
+
+# Local development guide
+/sft_guideline.md
+
+# Private or copyrighted data
+/wulinlegnd.txt
+/assets/tongfu-inn-banner.png
+data/interim/*
+data/processed/*
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/processed/tongxiangyu_sft.jsonl
+
+# Models and training outputs
+outputs/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Logs and caches
+runs/
+logs/
+.cache/

@@ -1,0 +1,9 @@
+torch
+transformers>=4.51.0,<5
+datasets
+peft
+accelerate
+modelscope
+charset-normalizer
+tensorboard
+
