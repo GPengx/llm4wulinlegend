@@ -14,7 +14,7 @@
 
 ## 🚀 快速开始
 
-以下命令在 AutoDL 服务器终端执行。使用前需准备好 `gpxenv` 环境、项目依赖和基础模型，并挂载支持 BF16 的 GPU；首次使用请先参照下方“1. 创建环境”和“2. 下载模型”。
+以下命令在 AutoDL 服务器终端执行。使用前需安装项目依赖和基础模型，并挂载支持 BF16 的 GPU；首次使用请先参照下方“1. 安装依赖”和“2. 下载模型”。
 
 克隆项目并进入项目目录：
 
@@ -25,7 +25,6 @@ git clone https://github.com/GPengx/llm4wulinlegend.git
 cd /root/llm4wulinlegend
 
 # 2. 启动推理，体验对话
-conda activate gpxenv
 python src/inference.py
 ```
 
@@ -33,7 +32,7 @@ python src/inference.py
 
 推理时输入问题，例如“掌柜的，今天生意不好怎么办？”，输入 `exit` 退出。当前每次提问独立处理，不保存聊天历史。
 
-后续命令均在项目根目录 `/root/llm4wulinlegend` 和 `gpxenv` 环境下执行。
+后续命令均在项目根目录 `/root/llm4wulinlegend` 下执行。
 
 ## 目录与数据边界
 
@@ -44,12 +43,9 @@ python src/inference.py
 /root/autodl-tmp/outputs/llm4wulinlegend
 ```
 
-## 1. 创建环境
+## 1. 安装依赖
 
 ```bash
-source /root/miniconda3/etc/profile.d/conda.sh
-conda create -n gpxenv python=3.11 -y
-conda activate gpxenv
 cd /root/llm4wulinlegend
 python -m pip install --upgrade pip
 pip install -r requirements.txt
