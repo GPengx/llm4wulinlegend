@@ -10,8 +10,6 @@
 
 从一段剧本台词到一次角色对话，跟着项目体验数据处理、模型下载、微调与推理的完整流程。
 
-<sub>封面为 AI 生成的漫画主题插画。</sub>
-
 > 本项目仅用于学习与研究，与原著作者、版权方及模型提供方无关。仓库许可证只覆盖本项目原创代码，不授权使用小说原文、影视角色、第三方模型或其权重。
 
 ## 🚀 快速开始
@@ -45,9 +43,6 @@ python src/inference.py
 /root/autodl-tmp/models/Qwen3-8B
 /root/autodl-tmp/outputs/llm4wulinlegend
 ```
-
-以下内容不会提交到公开仓库：`wulinlegnd.txt`、完整中间数据、虚拟环境、模型权重和训练输出。
-最终训练集 `data/processed/tongxiangyu_sft.jsonl` 将随代码公开；数据授权范围与代码许可证相互独立。
 
 ## 1. 创建环境
 
