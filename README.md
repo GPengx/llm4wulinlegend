@@ -21,7 +21,7 @@
 ```bash
 # 1. 克隆项目
 cd /root
-git clone https://github.com/GPengx/llm4wulinlegend.git
+git clone https://github.com/GuanPengxin/llm4wulinlegend.git
 cd /root/llm4wulinlegend
 
 # 2. 启动推理，体验对话
